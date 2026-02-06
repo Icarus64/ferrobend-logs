@@ -1,0 +1,14 @@
+- [ ] grade_marking table
+	- [x] Local ([[2025-03-12]])
+	- [ ] Live ([[2025-03-13]])
+- [ ] mgr_mark_rel table
+	- [x] Local ([[2025-03-12]])
+	- [ ] Live ([[2025-03-13]])
+- [x] Grade marking CRUD
+	- [x] Insert ([[2025-03-12]])
+	- [x] Fetch ([[2025-03-12]])
+	- [x] Update ([[2025-03-12]])
+	- [x] Delete ([[2025-03-12]])
+- [x] MOC-Grade Marking submission ([[2025-03-12]])
+- [x] MOC-Grade Marking Update ([[2025-03-13]])
+- [x] MOC-Grade Marking Delete ([[2025-03-13]])

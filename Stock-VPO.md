@@ -1,0 +1,45 @@
+### FG Orders
+- [x] New index (dashboard) ([[2025-01-30]])
+- [ ] New table 
+	- [x] stock_purchase_order
+		- [x] Local ([[2025-01-30]])
+		- [x] Live ([[2025-02-06]])
+	- [x] stock_purchase_list
+		- [x] Local ([[2025-01-31]])
+		- [x] Live ([[2025-02-06]])
+- [x] Header changes ([[2025-01-30]])
+- [x] Dropdown for category to new PO mechanism ([[2025-01-30]])
+- [ ] CRUD
+	- [x] Add page
+		- [x] Functionality ([[2025-01-30]])
+		- [x] Submission ([[2025-01-31]])
+		- [x] HSN selected modifier dropdown
+			- [x] Add page ([[2025-02-03]])
+			- [x] Update page ([[2025-02-03]])
+			- [x] View page ([[2025-02-03]])
+			- [x] Disable hsn fetch for product mechanism
+				- [x] Add page ([[2025-02-03]])
+				- [x] Update page ([[2025-02-03]])
+		- [ ] MGR toggle
+	- [x] View Page ([[2025-01-31]])
+	- [x] Lock mechanism ([[2025-01-31]])
+	- [x] Update page ([[2025-01-31]])
+- [x] Vendor CRUD in Stock-VPO
+	- [x] Add Page ([[2025-01-31]])
+	- [x] Update Page ([[2025-01-31]])
+- [x] revision & copy in Stock-VPO
+	- [x] Revision ([[2025-02-06]])
+	- [x] Copy ([[2025-02-06]])
+- [x] Fix the shortcut buttons ([[2025-02-05]])
+- [x] Mutable dates in Add & Update ([[2025-02-06]])
+- [x] UOM input 
+	- [x] Add page ([[2025-02-06]])
+	- [x] Update page ([[2025-02-06]])
+	- [x] View page ([[2025-02-06]])
+- [x] Date shouldn't be older than the max date entered ([[2025-02-06]])
+
+
+### RM Orders
+- [x] Add page ([[2025-02-04]])
+- [x] Update page ([[2025-02-05]])
+- [x] View page ([[2025-02-05]])

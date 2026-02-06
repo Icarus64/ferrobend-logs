@@ -1,0 +1,36 @@
+- [x] Client accounting basic UI ([[2024-11-27]])
+- [x] Modal with readonly details ([[2024-11-27]])
+- [x] open proof of payment files mechanism ([[2024-11-27]])
+- [x] Ready the basic offset transaction row ([[2024-11-27]])
+- [x] Fetch customer specific so through AJAX ([[2024-11-27]])
+- [x] Grand total Fetcher ([[2024-11-27]])
+- [x] Balance specific to SO fetcher ([[2024-11-27]])
+- [x] Addition of SO date and SO Fetcher ([[2024-11-27]])
+- [x] offset transaction clone mechanism ([[2024-11-27]])
+- [x] New transaction button hidden if received amount is equal to or exceeds selected SO(s) ([[2024-11-27]])
+- [x] Excess calculator ([[2024-11-27]])
+- [x] Cummulative balance calculator ([[2024-11-27]])
+- [x] Remove dupe offsets ([[2024-11-27]])
+- [x] Remove extra rows in offsets during gross balance calculator ([[2024-11-28]])
+- [x] Filter So No in dupe rows ([[2024-11-28]])
+- [x] Offset submission
+	- [x] New table account_offset ([[2024-11-28]])
+		- [x] Upload to live ([[2024-11-28]])
+- [x] Accounted amount and balance for each transaction in dashboard ([[2024-11-28]])
+- [x] Change payment proof default to null in local and live ([[2024-11-28]])
+- [x] Fetch submitted offsets ([[2024-11-28]])
+- [x] New balance column in account_offsets
+	- [x] Amending submission
+	- [x] Upload to live
+- [x] Extra filter for fetched SOs based on previous accounting
+- [x] Row removal for fetched rows
+- [x] Offset UI
+- [x] Offset remarks table
+	- [x] Create it
+	- [x] Upload to live
+- [x] Offset charges adjustment section and CRUD
+- [x] Offset update
+	- [x] Skip row if SO not selected ([[2024-12-02]])
+	- [x] Delete and submit as update ([[2024-12-02]])
+- [x] Offset delete ([[2024-12-02]])
+- [x] Search feature for Payments & Receipts ([[2025-02-07]])

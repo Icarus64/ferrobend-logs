@@ -1,0 +1,60 @@
+- [x] Introduce density to RM Schema to include in the unit weight formula ([[2024-10-15]])
+- [x] Remove dotZero in RM Schema formula due to issues with numbers like 3.14 ([[2024-10-15]])
+- [x] Dynamic fetching of RM Form dimensions in RM Products Master to set RM Product size ([[2024-10-15]])
+	- [x] Fetch sizes input from RM Schema and include in HTML DOM ([[2024-10-15]])
+	- [x] Fetch density along with sizes and make density readonly if density present else make it editable ([[2024-10-15]])
+- [x] Implement RM Schema formula in RM Products to calculate unit weight ([[2024-10-15]])
+- [x] Create new table for RM Size group IDs and its foreign keys in the concerned tables ([[2024-10-16]])
+- [ ] Shift dimension inputs to modal for RM products and create a new CRUD dropdown+modal pattern for RM Sizes
+	- [x] Create new modal for RM group sizes ([[2024-10-16]])
+	- [x] Create a restriction close to not fetch dimns until rm form is selected in the prior modal ([[2024-10-16]])
+	- [x] Shift the dimn fetching logic from RM Product modal to RM size group modal ([[2024-10-16]])
+	- [x] Restriction clause to close RM Size Group modal if RM Schema is not available ([[2024-10-16]])
+	- [x] Implement RM Group submission via AJAX ([[2024-10-16]])
+	- [x] Create a proper composite unique condition for RM Size Group submission ([[2024-10-16]])
+	- [ ] Create a duplicate entry combo checker of size group (both in submission and in UI)
+	- [x] Create RM Size group dropdown query to fetch sizes ([[2024-10-16]])
+	- [x] Implement RM Size Group Update ([[2024-10-17]])
+		- [x] Implement dynamic size fetch, density and formula calculator in update ([[2024-10-17]])
+			- [x] Focus on RM Form when Update modal opens ([[2024-10-17]])
+		- [x] Implement the update submission logic ([[2024-10-17]])
+		- ISSUE: RM Schema cannot be updated if any sizes or data exist related RM Products
+	- [x] Implement RM Size Group Delete
+- [x] RM Product Submission: How to store variable number of dimensions for RM sizes when submitting RM product ([[2024-10-17]])
+	- Challenge: dimn values for RM size will not be used efficiently, every category + form combo will make its own set of dimn values causing redundancies
+		Solution: make a separate dropdown+modal combo for RM Prod sizes
+- [x] New query for RM Products page to display Size Group ([[2024-10-17]])
+- [x] How to display UOMs for the complex set of size that will be implemented in RM Products : We will be assuming its mm by default ([[2024-10-15]])
+- [x] Configure RM Product Update according to the new RM Size Group to fetch proper data ([[2024-10-18]])
+	- [x] Adjusting RM Prod Size foreign key dependency due to issues with RM Schema update, The initial dependency of rm_form and dimn on rm_schema was right in functionality but currenty use case of RM Schema update denies that ([[2024-10-18]])
+	- [x] Modifying RM Product master page query due to grouping issue ([[2024-10-18]])
+	- NOTE: RM Product master update process is changed to allow null in all dropdowns hence a completely empty RM Product is also possible to update
+- [x] Update RM Product delete  ([[2024-10-18]])
+	- NOTE: Dependency check for RM Products won't work properly since the scope of dependencies have not been established yet
+- [ ] Implement RM product switch and RM product ADD, UPDATE & DELETE in SQ
+	- [x] Fetch RM Product along with size in SQ/ADD in the first row
+	- [x] Product switch to change modal target
+	- [x] Dynamic hsn for RM product ([[2024-10-18]])
+	- [ ] New Size Group Modal Functionality
+	- [x] New RM Product submission ([[2024-10-18]])
+	- [x] RM Product Update ([[2024-10-18]])
+	- [x] RM Product Delete ([[2024-10-18]])
+		- NOTE: Depedency not set for RM Products in SQ
+	- [ ] Weight calculation for RM
+	- [ ] HSN Fetch for RM
+	- [ ] Configure Line-item cloning mechanism in SQ to accommodate RM Products 
+		- [x] Switch in clone line items ([[2024-10-18]])
+			- NOTE: Size selection in update not working properly but options are being fetched. ADD/Update/Delete needs to be tested in Duplicate
+			- NOTE: Defaults between RM and FG need to be fixed
+- [ ] Add new columns in SQ_line_items to store RM OR FG Products
+- [ ] Implement steps 5 to 7 along with previous quotation data fetching mechanism in SQ/Update
+- [ ] Modify View in SQ to know which product should be fetched (FG/RM) and how to display them
+- [ ] Following modules to be updated to accommodate introduction of RM Products:
+	- [ ] All 3 pages of Proforma
+	- [ ] 2 pages of Sales Order
+	- [ ] SO-Cad for Designing, PPC, PDI, Purchase
+	- [ ] CAD drawing related pages (mapping, template, verify and view)
+
+
+**NOTE:**
+	BOM AND VPO that were previously made and left as it is have unknown number of steps as both MGR implementation and this RM product implementation have not been configured with these modules

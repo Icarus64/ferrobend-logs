@@ -1,0 +1,105 @@
+- [x] UOM implementation in GRN
+- [x] Add ([[2025-03-17]])
+- [x] Update ([[2025-03-17]])
+- [x] View ([[2025-03-17]])
+- [x] UOM implementation in SRN 
+	- [x] Add ([[2025-03-17]])
+	- [x] Update ([[2025-03-17]])
+	- [x] View ([[2025-03-17]])
+- [x] New columns in stock_inventory 
+	- [x] rm_cat, rm_prod, rmg_id, grl_id, srl_id, uom
+		- [x] Local ([[2025-03-17]])
+		- [x] Live ([[2025-03-19]])
+	- [x] FK for all
+		- [x] Local ([[2025-03-17]])
+		- [x] Live ([[2025-03-19]])
+- [x] GRN to stock insert, update
+	- [x] Insert ([[2025-03-18]])
+	- [x] Update ([[2025-03-18]])
+- [x] SRN to stock insert, update
+	- [x] Insert ([[2025-03-18]])
+	- [x] Update ([[2025-03-19]])
+- [ ] MGR null allowed in stock_inventory (cancelled)
+	- [x] Local ([[2025-03-19]])
+	- [ ] Live 
+- [x] Delete GRN and Stock ([[2025-03-19]])
+- [x] Delete SRN and Stock ([[2025-03-19]])
+- [x] RM view in Stock inventory for table ([[2025-03-19]])
+- [x] Stock access in BOM ([[2025-04-04]])
+- [x] Stock group clause issue in query ([[2025-04-04]])
+- [x] Remove new and update in Stock ([[2025-04-04]])
+- [x] Check for FG & RM in BOM ([[2025-04-04]])
+- [x] Stock view modal ([[2025-04-04]])
+- [x] pre-searched item on stock check redirect ([[2025-04-08]])
+- [ ] Split RM in stock
+	- [x] View modal for Split RM
+	- [x] Hide modal opening button when item is FG
+	- [ ] Hide btn if qty is in weights
+
+### Location wise stock + Aggregate Stock
+- [x] Stock Insert
+- [x] Stock Update Data Fetch
+	- [x] FG ([[2025-06-19]]) 
+	- [x] RM ([[2025-06-20]])
+- [x] Stock Update
+	- [x] FG ([[2025-06-20]])
+	- [x] RM ([[2025-06-20]])
+- [x] Stock RM insert ([[2025-06-23]])
+- [x] Inventory: Retrieval
+	- [x] Item-wise
+		- [x] New page clean up ([[2025-06-23]])
+		- [x] Qty exceed check and correction ([[2025-06-23]])
+		- [x] Warning during submission clearing ([[2025-06-23]])
+	- [x] Crate wise
+		- [x] Crate wise filter sections ([[2025-06-24]])
+		- [x] Location inclusion in the list ([[2025-06-24]])
+		- [x] Data fetch ([[2025-06-24]])
+		- [x] Crate wise update
+- [x] Inventory column order fixing ([[2025-06-24]])
+- [x] Zero entry in item-wise shouldn't show up ([[2025-06-24]])
+- [x] Readonly weight and price in inventory retrieval item wise ([[2025-06-24]])
+- [x] Account transaction
+	- [x] New Table
+		- [x] Local ([[2025-06-24]])
+		- [x] Live ([[2025-06-25]])
+	- [x] Trigger
+		- [x] Insert ([[2025-06-24]]) 
+		- [x] Update ([[2025-06-25]])
+	- [x] Transaction modal ([[2025-06-25]])
+- [ ] Stock Minimum
+	- [x] Table
+		- [x] Local ([[2025-06-25]])
+		- [x] Live ([[2025-06-26]])
+	- [x] CRUD ([[2025-06-26]])
+
+#### Fixes
+- [x] Coating = issue of minimum check in inventory ([[2025-06-26]])
+- [x] Default uom: Pcs ([[2025-06-26]])
+- [x] Default Location: Parsiwada ([[2025-06-26]])
+- [x] FromZero for unit weight ([[2025-06-26]])
+- [x] Tr --> Log ([[2025-06-26]])
+- [x] Search dropdown for pmc ([[2025-06-27]])
+- [x] Remove coating in RM ([[2025-06-27]])
+- [x] Auto UOM & Unit weight change based on product ([[2025-06-27]])
+- [x] UOM dropdown to crate dropdown during Crate CRUD issue ([[2025-06-27]])
+- [x] Remove Unit price ([[2025-06-27]])
+- [x] Add minimum Stock Level in inventory ([[2025-06-27]])
+- [x] Crate / Rack Label ([[2025-06-27]])
+- [x] Add Lot in uom ([[2025-06-27]])
+- [x] Inventory retrieval update issue ([[2025-06-27]])
+- [x] Make crate wise quantity in stock readonly ([[2025-06-27]])
+- [x] Hide coating in RM ([[2025-06-27]])
+- [x] Post CRUD operation fixes for crate, marking and location in New FG modal ([[2025-06-30]])
+- [x] Clones not having latest options ([[2025-06-30]])
+- [x] Stock transaction to log difference in amount ([[2025-06-30]])
+- [x] Source column in stock inventory ([[2025-07-02]])
+- [x] Source filter in stock inventory ([[2025-07-02]])
+- [x] Source filter default: User fed ([[2025-07-02]])
+- [ ] Source shifted to the update modal of stock inventory ([[2025-07-02]])
+- [ ] JWC rework
+	- [ ] Remove stock_id from DB
+		- [ ] Local
+		- [ ] Live
+	- [ ] Grouped qty and text
+		- [ ] Add
+		- [ ] Update

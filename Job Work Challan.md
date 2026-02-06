@@ -1,0 +1,167 @@
+### Process Fixing
+- [x] Process Remark master ([[2025-04-11]])
+	- [x] Add ([[2025-04-11]])
+	- [x] Update ([[2025-04-11]])
+	- [x] Delete ([[2025-04-11]])
+	- [x] Read ([[2025-04-11]])
+- [x] DB changes
+	- [x] New table process_remarks_rel
+		- [x] Local ([[2025-04-11]])
+		- [x] Live ([[2025-04-14]])
+	- [x] Data transfer from process_remarks to process_remarks_rel
+		- [x] Local ([[2025-04-11]])
+		- [x] Live ([[2025-04-14]])
+	- [x] Remove pro_id FROM remark and its FK
+		- [x] Local ([[2025-04-11]])
+		- [x] Live ([[2025-04-14]])
+- [x] Process rework to use process_remarks_rel
+	- [x] Read ([[2025-04-11]])
+	- [x] Add ([[2025-04-11]])
+	- [x] Update ([[2025-04-11]])
+	- [x] Delete ([[2025-04-11]]
+- [x] Rework process sequence
+	- [x] Add ([[2025-04-11]])
+	- [x] Update ([[2025-04-14]])
+	- [x] Delete ([[2025-04-14]])
+- [x] Rework BOM Process sequence ([[2025-04-14]])
+
+### Challan 
+- [x] Simple index page and folder along with navigable links ([[2025-04-14]])
+- [x] New JWC page
+	- [x] Fetch SO in DD ([[2025-04-14]])
+	- [x] Fetch product on DD focus ([[2025-04-14]])
+	- [x] Change php script to return JSON instead of plain HTML/text ([[2025-04-14]])
+	- [x] Fetch stock related to GRN along with product fetch ([[2025-04-14]])
+	- [x] Alter onfocus mechanism with a custom change checking to reduce server requests ([[2025-04-15]])
+	- [x] Common quantity storage solution ([[2025-04-15]])
+	- [x] Quantity fetch mechanism ([[2025-04-15]])
+	- [x] Process fetch ([[2025-04-15]])
+	- [x] clone mechanism ([[2025-04-15]])
+	- [x] Show no process found when process list empty ([[2025-04-16]])
+	- [x] Remove challan row ([[2025-04-16]])
+	- [x] Vendor DD ([[2025-04-16]])
+	- [x] Grade fetch ([[2025-04-16]])
+	- [x] BOM View ([[2025-04-16]])
+	- [x] Challan no. generation ([[2025-04-17]])
+	- [x] New tables: work_challan, work_challan_list, work_challan_process
+		- [x] Local ([[2025-04-17]])
+		- [x] Live ([[2025-04-18]])
+	- [x] Prevent form submission on pressing enter key ([[2025-04-17]])
+	- [x] Enable checkbox toggle with enter key ([[2025-04-17]])
+	- [x] New challan submission. ([[2025-04-17]])
+	- [x] Dashboard table  ([[2025-04-17]])
+	- [x] Change order of vendor dd ([[2025-04-17]])
+	- [x] Stock update on WC submission ([[2025-04-18]])
+- [x] View page
+	- [x] Template preparation ([[2025-04-17]])
+	- [x] Challan header detail fetch ([[2025-04-17]])
+	- [x] Job no & line item fetch ([[2025-04-17]])
+	- [x] Stock product & grade fetch ([[2025-04-17]])
+	- [x] SO product & grade fetch ([[2025-04-17]])
+	- [x] SO qty fetch ([[2025-04-17]])
+	- [x] Stock qty fetch ([[2025-04-18]])
+	- [x] Stock grade fetch ([[2025-04-18]])
+	- [x] Process fetch ([[2025-04-18]])
+	- [x] View cleanup ([[2025-04-18]])
+	- [x] Page height adjustment ([[2025-04-21]])
+- [ ] Update Page 
+	- [x] Modal ([[2025-04-22]])
+	- [ ] Data Fetch
+	- [ ] Submission
+
+### Change of concepts
+- [x] UOM of GRN & SRN based on selection in VPO & SVPO
+	- [x] GRN
+		- [x] Get the uom data in the options ([[2025-04-22]])
+		- [x] Comment uom DD (AGAIN!) and show readonly inputs ([[2025-04-22]])
+	- [x] SRN
+		- [x] Get the uom data in the options ([[2025-04-22]])
+		- [x] Comment uom DD (AGAIN!) and show readonly inputs ([[2025-04-22]])
+- [x] Filter button order change to ALL / FG / RM ([[2025-04-22]])
+- [x] Ungrouping Stock Inventory ([[2025-04-22]])
+- [x] Works List page
+	- [x] New page creation ([[2025-04-23]])
+	- [x] Adding onto header ([[2025-04-23]])
+	- [x] Query change ([[2025-04-23]])
+	- [x] Checkbox implementation ([[2025-04-23]])
+	- [x] Action tray mechanism ([[2025-04-23]])
+	- [x] Form redirection ([[2025-04-23]])
+- [ ] Reworking New JWC
+	- [x] Fetch by POST data ([[2025-04-23]])
+	- [x] Hide New button ([[2025-04-23]])
+	- [x] Loop through POST keys to display SO no & products with their grade ([[2025-04-23]])
+	- [x] Stock fetching ([[2025-04-23]])
+	- [x] Stock Qty and Grade fetching ([[2025-04-23]])
+	- [x] Stock Change mechanism rework ([[2025-04-23]])
+	- [x] BOM Fetching ([[2025-04-24]])
+	- [x] BOM display rework ([[2025-04-24]])
+	- [x] UOM for stock qty ([[2025-04-24]])
+	- [x] Processes fetch ([[2025-04-24]])
+	- [x] Process display work ([[2025-04-24]])
+	- [x] Submission rework ([[2025-04-24]])
+
+### Update page again
+- [ ] Update data fetch
+	- [x] Product fetch ([[2025-04-24]])
+	- [x] Jobno-li fetch ([[2025-04-24]])
+	- [x] stock fetch ([[2025-04-24]])
+	- [x] quantity fetch ([[2025-04-24]])
+	- [x] Process fetch ([[2025-04-24]])
+	- [x] First item not selecting during process fetching bug ([[2025-04-25]])
+	- [x] BOM View fetch in update ([[2025-04-25]])
+	- [x] Old quantity view in update ([[2025-04-25]])
+	- [x] Update submission ([[2025-04-25]])
+
+
+- [x] NEW GRN stock fetching issue found in live ([[2025-04-25]])
+- [x] Update GRN stock fetching issue found in live ([[2025-04-25]])
+- [x] Update GRN issue with 0 qty in GRN stock fixed ([[2025-04-25]])
+- [x] Delete challan ([[2025-04-18]])
+- [x] Optimized product fetching ([[2025-04-18]])
+- [x] LastSO causing the duplicate row product fetch issue ([[2025-04-18]])
+- [x] Optimized stock fetching ([[2025-04-18]])
+- [x] Qty+tolerance with uom in BOM View ([[2025-04-18]])
+- [x] Change qty source of RM to po qty and mention source ([[2025-04-18]])
+- [ ] Already used product of an SO in the New JWC modal shouldn't appear 
+- [ ] Once all items used in the JWC menu, SO shouldn't reappear
+- [ ] Stock qty should dynamically reduce when used in the modal
+- [x] RM FG filter for inventory ([[2025-04-21]])
+- [x] Source of goods in inventory (use color) ([[2025-04-21]])
+- [x] Enable UOM for GRN and SRN ([[2025-04-21]])
+- [x] Show grade for stock in new challan modal ([[2025-04-21]])
+- [x] Shift both grades below product and stock dd ([[2025-04-21]])
+- [x] Hide SOs that don't have BOM or PO ([[2025-04-21]])
+- [x] RM product issue with View ([[2025-04-21]])
+- [x] Changed Stock color scheme to represent the pricing strategy entries ([[2025-04-23]])
+- [x] Break Pricing Strategy to Stock Inventory & clean up data ([[2025-04-25]])
+- [x] Shortcut to works list in Job Work Challan ([[2025-04-25]])
+- [x] Pagification of new JWC Modal ([[2025-04-25]])
+- [x] Add page height fixer for Add page ([[2025-04-28]])
+- [x] Challan detail section division width adjusted in Add page ([[2025-04-28]])
+- [x] Challan detail section division width adjusted in View page ([[2025-04-28]])
+- [x] Uom column in Challan View ([[2025-04-28]])
+- [ ] Vendor CRUD for Add page ([[2025-04-28]])
+- [x] Pagefication of Update page ([[2025-04-28]])
+	- [x] Process fetch ([[2025-04-29]])
+	- [x] Update submission ([[2025-04-29]])
+- [x] Stock based qty fetch issue due to ID in Add & Update ([[2025-04-29]])
+- [x] Not fetching GRL properly in Add issue ([[2025-04-29]])
+		0 qty in grl deadlock which lead to problems with the 0 qty clause in Add & Update pages
+		Ans: No 0 qty clause removed from Update page and left with Add page and the db data fixed to some qty instead for that particular grl
+- [x] Double quote in input text value issue in Add & Update page ([[2025-04-29]])
+- [x] Qty regulator in Add page ([[2025-04-30]])
+		The first approach of having one reference to maintain the stock and input history is changed to dynamically calculating based on Avesh's work
+- [x] Qty regulator in Update Page ([[2025-04-30]])
+- [x] Only SFG & RM line items in Works List ([[2025-04-30]])
+- [x] Only when GRN received in Works List ([[2025-04-30]])
+- [x] Change data type from int or float to DECIMAL(10,3) in
+	- [x] goods_receipt_list ([[2025-04-30]])
+	- [x] Stock_inventory ([[2025-04-30]])
+	- [x] stock_receipt_list ([[2025-04-30]])
+- [x] Allow decimal in stock qty of add & update ([[2025-04-30]])
+- [x] For GRNs, auto select stock and qty ([[2025-04-30]])
+- [x] Remove challan row ([[2025-04-30]])
+- [x] Job no column in GRN dashboard ([[2025-04-30]])
+- [x] Add GRN in Operations ([[2025-04-30]])
+- [x] Filter items already placed in challans ([[2025-04-30]])
+- [ ] Redirection from stock check should show a SRN only stock page along with MOC

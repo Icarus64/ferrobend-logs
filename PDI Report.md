@@ -1,0 +1,18 @@
+- [x] Tables
+- [x] Add
+- [x] Update
+- [x] Delete
+- [x] PDI drawing module
+- [x] Production ([[2025-10-15]])
+- [x] Add Vernier Caliper option in live DB ([[2025-10-15]])
+- [x] Make tolerance class null in live ([[2025-10-15]])
+- [x] Vernier Caliper not showing issue ([[2025-10-15]])
+	- [x] Add ([[2025-10-15]])
+	- [x] Update ([[2025-10-15]])
+	- [x] View ([[2025-10-15]])
+- [x] View page height fix ([[2025-10-15]])
+		Have managed to fit 10 items in one page for now, will fix again based on case to case basis, also removed margin and padding from custom-footer just in case and that seems to be working so let's see
+- [x] .xx decimal in all values of view ([[2025-10-15]])
+- [x] Stamps in PDI View ([[2025-10-28]])
+- [x] Non compliance X in PDI view ([[2025-10-28]])
+- [x] Page height issue fixes ([[2025-10-28]])

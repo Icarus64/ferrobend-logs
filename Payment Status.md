@@ -1,0 +1,30 @@
+- [x] Create the page ([[2024-11-18]])
+- [x] SQL for the page ([[2024-11-18]])
+- [x] FIRC submission modal set up ([[2024-11-18]])
+- [x] Bank CRUD
+	- [x] Submission ([[2024-11-18]])
+	- [x] Update ([[2024-11-18]])
+	- [x] Delete ([[2024-11-18]])
+- [x] PS Submission
+	- [x] File upload ([[2024-11-19]])
+	- [x] FIRC DB entry ([[2024-11-19]])
+	- [x] Transaction submission ([[2024-11-19]])
+- [x] Multi-transaction UI ([[2024-11-19]])
+- [x] New transaction keyboard shortcut (idky but it works)
+- [ ] remove transaction row
+- [x] Fetch old data ([[2024-11-21]])
+- [x] Move firc to each transaction
+	- [x] redesign original row ([[2024-11-21]])
+	- [x] redesign duplicate row ([[2024-11-21]])
+	- [x] redesign update row ([[2024-11-21]])
+	- [x] ct_id in fircs DB again and remove unique ([[2024-11-21]])
+	- [x] Rework submission ([[2024-11-21]])
+- [x] Dynamic balance calculator ([[2024-11-21]])
+- [x] Default dates ([[2024-11-21]])
+- [x] Hide btn on balance zero ([[2024-11-21]])
+- [x] prevent new transaction on balance zero ([[2024-11-21]])
+- [x] negative balance correction
+- [x] Fetch old fircs ([[2024-11-21]])
+- [ ] view fircs
+- [ ] delete fircs
+- [x] update transactions ([[2024-11-22]])

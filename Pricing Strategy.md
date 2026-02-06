@@ -1,0 +1,23 @@
+- [x] Line item metrics, only show SO converted rates 
+- [x] A new module to set rates for sets of quantites for a product-moc-coating combo ([[2025-02-21]])
+- [x] New table (pricing_strategy)
+	- [x] Local ([[2025-02-21]])
+	- [x] Live ([[2025-02-21]])
+- [x] Insert Modal ([[2025-02-21]])
+- [x] Insert submission ([[2025-02-21]])
+- [x] View fetch on the table ([[2025-02-21]])
+- [x] Update Modal ([[2025-02-21]])
+- [x] Update Data fetch ([[2025-02-21]])
+- [x] Update submission ([[2025-02-21]])
+- [x] Delete ([[2025-02-24]])
+- [x] Search functionality ([[2025-02-24]])
+- [x] INR (Label for rates) ([[2025-02-24]])
+- [x] Hovering pricing strategy popover in SQ
+	- [x] Add ([[2025-02-24]])
+	- [x] Update ([[2025-02-24]])
+- [ ] Group dashboard entries together
+- [ ] Update entire sections together
+### Fixes
+- [x] New rows of the prices are not in proper hierarchy ([[2025-02-24]])
+- [x] Null selection from coating in fillModal causes issue in update submission ([[2025-02-24]])
+- [x] Pricing strategy query needs to change to work with nulls ([[2025-02-24]])

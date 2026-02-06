@@ -1,0 +1,6 @@
+- [x] Temporary changes in account details and images 
+	- [x] Local ([[2025-11-03]])
+	- [x] Live ([[2025-11-03]])
+- [x] New module completed (ferroforge)
+- [x] Git upload ([[2025-10-31]])
+- [x] Clean reset ([[2025-11-03]])
