@@ -16,3 +16,4 @@
 - [x] Stamps in PDI View ([[2025-10-28]])
 - [x] Non compliance X in PDI view ([[2025-10-28]])
 - [x] Page height issue fixes ([[2025-10-28]])
+- [x] Toggle dimn visibility in PDI View for print ([[2026-02-25]])

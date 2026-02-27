@@ -112,6 +112,26 @@
 	- [x] Old quantity view in update ([[2025-04-25]])
 	- [x] Update submission ([[2025-04-25]])
 
+### SO Goods Map revamp
+- [x] DB change removing stock_id from work_challan_list and adding sgm_id
+	- [x] Local ([[2026-02-16]])
+	- [x] Live ([[2026-02-20]])
+- [x] Works list fix to restrict only till Purchase Order ([[2026-02-17]])
+- [x] Dashboard shortcut in works list ([[2026-02-17]])
+- [x] Make qty in Add ([[2026-02-18]])
+- [x] Delete ([[2026-02-18]])
+- [x] View in JWC ([[2026-02-18]])
+- [x] Update in JWC ([[2026-02-19]])
+- [x] Revision in JWC ([[2026-02-20]])
+- [x] Year in works list ([[2026-02-20]])
+- [x] Remarks in JWC ([[2026-02-20]])
+- [x] JWC title fix ([[2026-02-20]])
+- [x] Only dia in view ([[2026-02-23]])
+- [x] Only grade in view ([[2026-02-23]])
+- [x] Remark not shown if no remark ([[2026-02-23]])
+- [x] Sequential Process in JWC for add and view ([[2026-02-23]])
+- [x] Sequential Process in JWC Update ([[2026-02-24]])
+
 
 - [x] NEW GRN stock fetching issue found in live ([[2025-04-25]])
 - [x] Update GRN stock fetching issue found in live ([[2025-04-25]])
@@ -140,7 +160,7 @@
 - [x] Challan detail section division width adjusted in Add page ([[2025-04-28]])
 - [x] Challan detail section division width adjusted in View page ([[2025-04-28]])
 - [x] Uom column in Challan View ([[2025-04-28]])
-- [ ] Vendor CRUD for Add page ([[2025-04-28]])
+- [x] Vendor CRUD for Add page ([[2025-04-28]])
 - [x] Pagefication of Update page ([[2025-04-28]])
 	- [x] Process fetch ([[2025-04-29]])
 	- [x] Update submission ([[2025-04-29]])
